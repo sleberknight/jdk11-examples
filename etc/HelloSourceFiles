@@ -1,0 +1,15 @@
+#!/Users/sleberkn/.sdkman/candidates/java/11.0.2-open/bin/java --class-path /usr/local/user/share/mvn_repo/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar --source 11
+
+import javax.annotation.Nonnull;
+
+/**
+ * Make sure this file is executable.
+ * To run from command line when in project directory:
+ *  ./etc/HelloSourceFiles
+ */
+public class HelloSourceFiles {
+
+    public static void main(String[] args) {
+        System.out.println("Hello .java source file!");
+    }
+}
